@@ -3,7 +3,7 @@ An automated, pythonic cheminformatics pipeline built with **RDKit** and **Panda
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 * **Automated Structure Parsing:** Converts SMILES identifiers into RDKit 2D molecular objects using vectorized `PandasTools`.
 * **SMARTS Pattern Matching:** Screens chemical structures against a curated dictionary of SMARTS expressions corresponding to environmental functional groups (e.g., nitroaromatics, halogenated hydrocarbons, phenolic groups, aromatic amines).
@@ -14,7 +14,7 @@ An automated, pythonic cheminformatics pipeline built with **RDKit** and **Panda
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+## Tech Stack & Dependencies
 
 * **Language:** Python 3.8+
 * **Cheminformatics:** [RDKit](https://www.rdkit.org/) (`rdkit.Chem`, `rdkit.Chem.Draw`, `rdkit.Chem.PandasTools`)
@@ -23,7 +23,7 @@ An automated, pythonic cheminformatics pipeline built with **RDKit** and **Panda
 
 ---
 
-## 🔬 Target Structural Alerts (SMARTS)
+## Target Structural Alerts (SMARTS)
 
 The screener evaluates input chemicals against key functional groups associated with environmental persistence, bioaccumulation, or aquatic toxicity:
 
@@ -36,14 +36,4 @@ The screener evaluates input chemicals against key functional groups associated 
 
 ---
 
-## 📂 Project Structure
 
-```text
-├── data/
-│   └── environmental_pollutants.csv   # Input chemical dataset with SMILES
-├── notebooks/
-│   └── pollutant_screener.ipynb      # Main pipeline execution notebook
-├── output/
-│   └── flagged_pollutants_grid.png   # Output gallery of hazardous molecules
-├── README.md                          # Project documentation
-└── requirements.txt                   # Dependency list
