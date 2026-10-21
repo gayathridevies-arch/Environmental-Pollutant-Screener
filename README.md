@@ -32,7 +32,7 @@ The screener evaluates input chemicals against key functional groups associated 
 | **Halogenated Compounds** | Organohalides | `[#6][F,Cl,Br,I]` | Persistent organic pollutants (POPs), halogenated solvents |
 | **Nitroaromatic Groups** | Nitro-substituted aromatics | `c[N+](=O)[O-]` | Explosives residue, industrial intermediates |
 | **Phenolic Structures** | Aromatic hydroxyl groups | `c[OH]` | Endocrine disruptors, industrial disinfectants |
-| **Aromatic Amines** | Amino-substituted aromatics | `c[NH2]` | Dye degradation products, carcinogenic hazards |
+| **Aromatic Amines** | Amino-substituted aromatics | `[c][NX3;H2,H1]` | Dye degradation products, carcinogenic hazards |
 
 ---
 ## Results & Performance Summary
