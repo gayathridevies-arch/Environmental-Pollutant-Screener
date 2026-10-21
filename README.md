@@ -49,5 +49,5 @@ When executed against the benchmark dataset of **20 representative organic compo
 | **Halogenated Compounds** | `[#6][F,Cl,Br,I]` | **7** | Persistence in soil and groundwater, bioaccumulation |
 | **Phenolic Structures** | `c[OH]` | **4** | Endocrine disruption, industrial disinfectant runoff |
 | **Nitroaromatic Groups** | `c[N+](=O)[O-]` | **3** | High environmental mobility, toxicity/explosives residue |
-| **Aromatic Amines** | `c[NH2]` | **2** | Known/suspected carcinogens, dye industry byproducts |
+| **Aromatic Amines** | `[c][NX3;H2,H1]` | **2** | Known/suspected carcinogens, dye industry byproducts |
 
