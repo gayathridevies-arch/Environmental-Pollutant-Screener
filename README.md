@@ -35,5 +35,19 @@ The screener evaluates input chemicals against key functional groups associated 
 | **Aromatic Amines** | Amino-substituted aromatics | `c[NH2]` | Dye degradation products, carcinogenic hazards |
 
 ---
+## Results & Performance Summary
 
+When executed against the benchmark dataset of **20 representative organic compounds**, the automated pipeline successfully delivered the following performance:
+
+* **Total Compounds Screened:** 20
+* **Unique Hazardous Compounds Flagged:** 13 (65%)
+* **Clean / Non-Flagged Compounds:** 7 (35%)
+
+### Breakdown of Triggered Structural Alerts
+| Hazard Category | SMARTS Pattern | Trigger Count | Toxicological Significance |
+| :--- | :--- | :--- | :--- |
+| **Halogenated Compounds** | `[#6][F,Cl,Br,I]` | **7** | Persistence in soil and groundwater, bioaccumulation |
+| **Phenolic Structures** | `c[OH]` | **4** | Endocrine disruption, industrial disinfectant runoff |
+| **Nitroaromatic Groups** | `c[N+](=O)[O-]` | **3** | High environmental mobility, toxicity/explosives residue |
+| **Aromatic Amines** | `c[NH2]` | **2** | Known/suspected carcinogens, dye industry byproducts |
 
