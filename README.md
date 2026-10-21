@@ -17,8 +17,8 @@ An automated, pythonic cheminformatics pipeline built with **RDKit** and **Panda
 ## Tech Stack & Dependencies
 
 * **Language:** Python 3.8+
-* **Cheminformatics:** [RDKit](https://www.rdkit.org/) (`rdkit.Chem`, `rdkit.Chem.Draw`, `rdkit.Chem.PandasTools`)
-* **Data Processing:** [Pandas](https://pandas.pydata.org/)
+* **Cheminformatics:** [RDKit] (`rdkit.Chem`, `rdkit.Chem.Draw`, `rdkit.Chem.PandasTools`)
+* **Data Processing:** [Pandas]
 * **Environment:** Jupyter Notebook / Google Colab
 
 ---
